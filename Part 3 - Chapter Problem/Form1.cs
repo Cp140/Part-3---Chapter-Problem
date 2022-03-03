@@ -20,10 +20,13 @@ namespace Part_3___Chapter_Problem
         private void btnCompute_Click(object sender, EventArgs e)
         {
             //Button click event
-            string name = txtName.Text;
-            double age = Convert.ToDouble(txtAge.Text);
-            double hight = Convert.ToDouble(txtHight);
+            string Name = txtName.Text;
+            double age = Convert.ToDouble(numup1.Text);
+            double hight = Convert.ToDouble(txtHight.Text);
+            lblOutput.Text = ($"Hello {Name} you are {age} years old and you are {hight} meters tall.");
 
         }
+
+       
     }
 }
